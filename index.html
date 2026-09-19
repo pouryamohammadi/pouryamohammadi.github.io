@@ -4,60 +4,401 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Your Name</title>
+    <meta name="description"
+          content="Personal academic and professional website of Pourya Mohammadi, M.Sc. Structural Engineering student at the University of Kurdistan.">
 
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 80px auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
+    <title>Pourya Mohammadi | Structural Engineering</title>
 
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            color: #666;
-            font-size: 1.2rem;
-        }
-
-        a {
-            color: #0066cc;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Your Name</h1>
+    <!-- =========================
+         Navigation
+    ========================== -->
+    <header class="navbar">
+        <div class="nav-container">
 
-    <p class="subtitle">
-        Your profession / field / short description
-    </p>
+            <a href="#home" class="logo">PM</a>
 
-    <h2>About Me</h2>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
 
-    <p>
-        Write a short introduction about yourself here.
-    </p>
+        </div>
+    </header>
 
-    <h2>Projects</h2>
 
-    <ul>
-        <li><a href="#">Project One</a></li>
-        <li><a href="#">Project Two</a></li>
-        <li><a href="#">Project Three</a></li>
-    </ul>
+    <main>
 
-    <h2>Contact</h2>
+        <!-- =========================
+             Hero / Home
+        ========================== -->
+        <section id="home" class="hero">
 
-    <p>
-        <a href="mailto:you@example.com">Email me</a>
-    </p>
+            <div class="hero-container">
+
+                <div class="hero-text">
+
+                    <p class="eyebrow">
+                        STRUCTURAL ENGINEERING
+                    </p>
+
+                    <h1>
+                        Pourya<br>
+                        <span>Mohammadi</span>
+                    </h1>
+
+                    <h2>
+                        M.Sc. Structural Engineering Student
+                    </h2>
+
+                    <p class="hero-description">
+                        Civil and Structural Engineering student with an
+                        interest in structural analysis, design, and
+                        engineering applications.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#about" class="button button-primary">
+                            About Me
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Contact
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <div class="hero-photo">
+
+                    <!--
+                        Put your photo in a folder named "images"
+                        next to this index.html file.
+
+                        Example:
+                        images/profile.jpg
+
+                        Then change the filename below if necessary.
+                    -->
+
+                    <div class="photo-frame">
+                        <img
+                            src="images/profile.jpg"
+                            alt="Portrait of Pourya Mohammadi"
+                        >
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="scroll-indicator">
+                <span></span>
+                Scroll to explore
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             About
+        ========================== -->
+        <section id="about" class="section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <span class="section-number">01</span>
+                    <h2>About Me</h2>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-intro">
+                        <p class="large-text">
+                            I am a Master's student in Structural Engineering
+                            at the University of Kurdistan, with an academic
+                            background in Civil Engineering.
+                        </p>
+                    </div>
+
+                    <div class="about-text">
+
+                        <p>
+                            I am currently in my second year of the M.Sc.
+                            Structural Engineering program at the University
+                            of Kurdistan, following my Bachelor's degree in
+                            Civil Engineering from the same university.
+                        </p>
+
+                        <p>
+                            My academic interests are broadly focused on
+                            Structural Engineering and its applications.
+                            I am particularly interested in developing my
+                            understanding of structural analysis, engineering
+                            design, and the use of computational and technical
+                            tools in engineering practice.
+                        </p>
+
+                        <p>
+                            Alongside my academic studies, I have developed
+                            experience with several engineering software
+                            platforms and tools used in civil and structural
+                            engineering.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             Education
+        ========================== -->
+        <section id="education" class="section section-light">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <span class="section-number">02</span>
+                    <h2>Education</h2>
+                </div>
+
+
+                <div class="education-list">
+
+                    <!-- Master's -->
+                    <article class="education-item">
+
+                        <div class="education-year">
+                            M.Sc.
+                        </div>
+
+                        <div class="education-content">
+
+                            <h3>
+                                Structural Engineering
+                            </h3>
+
+                            <p class="institution">
+                                University of Kurdistan
+                            </p>
+
+                            <p>
+                                Currently in the second year of the Master's
+                                program in Structural Engineering.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Bachelor's -->
+                    <article class="education-item">
+
+                        <div class="education-year">
+                            B.Sc.
+                        </div>
+
+                        <div class="education-content">
+
+                            <h3>
+                                Civil Engineering
+                            </h3>
+
+                            <p class="institution">
+                                University of Kurdistan
+                            </p>
+
+                            <p>
+                                Bachelor's degree in Civil Engineering.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             Skills
+        ========================== -->
+        <section id="skills" class="section">
+
+            <div class="section-container">
+
+                <div class="section-heading">
+                    <span class="section-number">03</span>
+                    <h2>Technical Skills</h2>
+                </div>
+
+                <div class="skills-intro">
+
+                    <p>
+                        Engineering software and technical tools that I use
+                        in my academic and engineering work.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+                    <div class="skill-card">
+                        <span class="skill-number">01</span>
+                        <h3>ETABS</h3>
+                        <p>Structural analysis and design</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">02</span>
+                        <h3>SAFE</h3>
+                        <p>Structural and foundation design</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">03</span>
+                        <h3>AutoCAD</h3>
+                        <p>Technical drawing and drafting</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">04</span>
+                        <h3>Civil 3D</h3>
+                        <p>Civil engineering design</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">05</span>
+                        <h3>MATLAB</h3>
+                        <p>Engineering computation and analysis</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <span class="skill-number">06</span>
+                        <h3>ArcGIS</h3>
+                        <p>Geospatial analysis and mapping</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             Contact
+        ========================== -->
+        <section id="contact" class="section section-dark">
+
+            <div class="section-container">
+
+                <div class="section-heading light">
+                    <span class="section-number">04</span>
+                    <h2>Contact</h2>
+                </div>
+
+
+                <div class="contact-content">
+
+                    <div class="contact-intro">
+
+                        <p class="large-text">
+                            Let's connect.
+                        </p>
+
+                        <p>
+                            I am open to academic and professional
+                            opportunities, collaborations, and connections
+                            related to Civil and Structural Engineering.
+                        </p>
+
+                    </div>
+
+
+                    <div class="contact-links">
+
+                        <!-- Replace the # values with your real links -->
+
+                        <a href="mailto:YOUR_EMAIL@example.com"
+                           class="contact-link">
+
+                            <span>Email</span>
+                            <span class="arrow">↗</span>
+
+                        </a>
+
+
+                        <a href="YOUR_LINKEDIN_URL"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact-link">
+
+                            <span>LinkedIn</span>
+                            <span class="arrow">↗</span>
+
+                        </a>
+
+
+                        <a href="YOUR_TELEGRAM_URL"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           class="contact-link">
+
+                            <span>Telegram</span>
+                            <span class="arrow">↗</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         Footer
+    ========================== -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <p>
+                © 2026 Pourya Mohammadi
+            </p>
+
+            <p>
+                Structural Engineering · University of Kurdistan
+            </p>
+
+        </div>
+
+    </footer>
+
 
 </body>
 </html>
